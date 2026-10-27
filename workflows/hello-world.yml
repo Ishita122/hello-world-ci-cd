@@ -30,6 +30,8 @@ jobs:
 
       - name: Package application
         run: |
+          sudo apt-get update
+          sudo apt-get install -y zip
           mkdir dist
           cp app.py test_app.py dist/
           cd dist
