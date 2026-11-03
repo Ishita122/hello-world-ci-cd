@@ -3,9 +3,9 @@ from app import hello_world
 
 class TestHelloWorld(unittest.TestCase):
     def test_hello_world_message(self):
-        self.assertEqual(
+            self.assertEqual(
             hello_world(),
-            "Hello, Git!"        # <-- intentionally wrong
+            "Hello, DevOps!"     # <-- restored
         )
 
 if __name__ == "__main__":
