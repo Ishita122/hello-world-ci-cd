@@ -5,7 +5,7 @@ class TestHelloWorld(unittest.TestCase):
     def test_hello_world_message(self):
         self.assertEqual(
             hello_world(),
-            "Hello, DevOps!"   # <-- updated
+            "Hello, Git!"        # <-- intentionally wrong
         )
 
 if __name__ == "__main__":
