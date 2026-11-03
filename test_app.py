@@ -3,9 +3,15 @@ from app import hello_world
 
 class TestHelloWorld(unittest.TestCase):
     def test_hello_world_message(self):
-            self.assertEqual(
+        self.assertEqual(
             hello_world(),
-            "Hello, DevOps!"     # <-- restored
+            "Hello, DevOps!"
+        )
+
+    def test_hello_world_returns_string(self):
+        self.assertIsInstance(
+            hello_world(),
+            str
         )
 
 if __name__ == "__main__":
