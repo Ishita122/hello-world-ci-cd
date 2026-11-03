@@ -1,6 +1,6 @@
 # app.py
-def get_message():
+def hello_world():
     return "Hello, DevOps!"
 
 if __name__ == "__main__":
-    print(get_message())
+    print(hello_world())
